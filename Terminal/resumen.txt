@@ -1,0 +1,5 @@
+git init
+git push origin "nombrerama"
+git pull origin "nombrerama"
+git status
+git add "nombrearchivo"
