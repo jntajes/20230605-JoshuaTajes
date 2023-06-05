@@ -1,0 +1,190 @@
+    1  cd
+    2  ls
+    3  cd DH
+    4  ls
+    5  cd Desktop
+    6  cd Dh
+    7  mkdir clase 2
+    8  cd clase 2
+    9  ls
+   10  mkdir clase2
+   11  cd clase2
+   12  ls
+   13  ls
+   14  cd DH-IntInf
+   15  ls
+   16  mkdir clase2
+   17  cd clase2
+   18  touch primerospasos.txt
+   19  ls
+   20  touch otroarchivo.xls
+   21  ls
+   22  rm primerospasos.txt
+   23  la
+   24  ls
+   25  cd peliculas
+   26  mkdir clase
+   27  ls
+   28  ls
+   29  rm -r clase
+   30  ls
+   31  cd peliculas
+   32  mkdir peliculas
+   33  ls
+   34  cd peliculas
+   35  mkdir 'scary movie.txt'
+   36  ls
+   37  rm -r 'scary movie.txt'
+   38  cd ..
+   39  ls
+   40  ls -l
+   41  ls -1R
+   42  cd peliculas
+   43  ls
+   44  touch "scary movie"
+   45  ls
+   46  mkdir terror
+   47  ls
+   48  rm "scary movie"
+   49  ls
+   50  touch "scary movie".txt
+   51  ls
+   52  ls -1
+   53  mv "scary movie.txt" peliculas/terror
+   54  ls
+   55  mv "scary movie".txt peliculas/terror
+   56  ls
+   57  mv "scary movie".txt peliculas/terror
+   58  mv "scary movie".txt terror
+   59  ls
+   60  cd terror
+   61  ls
+   62  mv "haloween".txt
+   63  ls
+   64  cd..
+   65  cd ..
+   66  cd ..
+   67  cp otroarchivo.xls peliculas
+   68  ls
+   69  cd peliculas/
+   70  ls
+   71  cp -r peliculas peliculas2
+   72  cd ..
+   73  ls
+   74  cp -r peliculas peliculas2
+   75  ls
+   76  cd peliculas2
+   77  ls
+   78  cd -- 
+   79  cd Desktop/
+   80  cd DH-IntInf/clase2/
+   81  clear
+   82  history
+   83  history /entrega1.txt
+   84  ls -r
+   85  clear
+   86  cd ..
+   87  cd --
+   88  dc Desktop/
+   89  cd Desktop/
+   90  ls
+   91  cd ls
+   92  sl
+   93  ls
+   94  clear
+   95  sl
+   96  ls
+   97  mkdir DH
+   98  ls
+   99  cd DH
+  100  mkdir repaso_clase1y2
+  101  cd repaso_clase1y2/
+  102  mkdir historia_de_la_contabilidad
+  103  mkdir que_haremos_hoy
+  104  mkdir servidores
+  105  mkdir interfaces_de_usuario
+  106  mkdir infraestructura
+  107  ls
+  108  cd historia_de_la_contabilidad/
+  109  touch repaso.txt
+  110  cd ..
+  111  touch interfaces_de_usuario/repaso.txt
+  112  touch servidores/repaso.txt
+  113  touch infraestructura/repaso.txt
+  114  touch que_haremos_hoy/repaso.txt
+  115  ls
+  116  cd historia_de_la_contabilidad/
+  117  ls
+  118  cd --
+  119  ls -1R
+  120  clear
+  121  ls
+  122  cd --
+  123  cd Desktop/
+  124  cd DH
+  125  ls
+  126  ls -1R
+  127  mkdir informes
+  128  cd informes/
+  129  touch informeAnual.xls
+  130  ls
+  131  mkdir auditoria
+  132  touch auditoria.xls
+  133  touch reporteConsolidado.xls
+  134  ls
+  135  mv auditoria.xls ./auditoria
+  136  cd auditoria/
+  137  ls
+  138  git --version
+  139  git
+  140  cd ..
+  141  ls
+  142  cd Intro\ 2023/
+  143  cd Terminal/
+  144  mv Prueba1.txt ../Comandos
+  145  ls
+  146  mv Prueba1.txt.txt ../Comandos/
+  147  cd --
+  148  ls
+  149  cd Desktop/DH/Introducción\ a\ la\ informatica/
+  150  mkdir 20230605-JoshuaTajes
+  151  ls
+  152  cd 20230605-JoshuaTajes/
+  153  git init
+  154  touch comandos.txt
+  155  git add .
+  156  git commit -m "commit 01 de joshuaTajes"
+  157  git branch -M main
+  158  git remote add origin https://github.com/jntajes/20230605-JoshuaTajes.git
+  159  git push origin main
+  160  touch main.js index.html
+  161  git commit -m "commit 02 de joshuaTajes"
+  162  git add .
+  163  git commit -m "commit 02 de joshuaTajes"
+  164  git push origin main
+  165  git branch "feature01"
+  166  git checkout feature01
+  167  mkdir Terminal
+  168  mkdir Hardware
+  169  touch Terminal/resumen.txt
+  170  touch Hardware/resumen.txt
+  171  git add .
+  172  git commit -m "commit 03 de joshuaTajes"
+  173  git push origin feature01
+  174  git branch "feature02"
+  175  git checkout feature02
+  176  cd Terminal/
+  177  ls
+  178  nano resumen.txt 
+  179  cd ../Hardware/
+  180  nano resumen.txt 
+  181  git add .
+  182  git commit -m "commit 04 de joshuaTajes"
+  183  git push origin feature02
+  184  cd ..
+  185  git add .
+  186  git commit -m "commit 05 de joshuaTajes"
+  187  git push origin feature02
+  188  git checkout main
+  189  mv comandos.txt comandosUtilizados.txt
+  190  history > comandosUtilizados.txt 
